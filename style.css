@@ -4,3 +4,7 @@
    .navabr-color{
     background-color:  #6c757d;
    }
+  .image{
+    position: relative;
+    z-index: -1;
+  }
