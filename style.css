@@ -6,30 +6,49 @@
     background-color: #6c757d;
   }
 
-  .image-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto;
-    max-width: 100%;
-  }
-  @keyframes slide{
 
-    0%{
-      transform: translateX(0);
-    }
-   25%{
-      transform: translateX(0);
-    }
- 30%{
-      transform: translateX (-100%);
-    }
-    0%{
-      transform: translateX(0);
-    }0%{
-      transform: translateX(0);
-    }
-  }
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 600px; /* set fixed height so images are visible */
+  overflow: hidden;
+}
+
+/* ✅ Slideshow images */
+.image-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* all images fill wrapper */
+  object-fit: cover; /* crop nicely */
+  opacity: 0;
+  animation: fadeSlide 20s infinite;
+  z-index: 0;
+}
+
+/* ✅ Text always above images */
+.image-wrapper .responsive-text {
+  position: relative;
+  z-index: 2;
+}
+
+/* ✅ Animate images one after the other */
+.image-wrapper img:nth-of-type(1) { animation-delay: 0s; }
+.image-wrapper img:nth-of-type(2) { animation-delay: 5s; }
+.image-wrapper img:nth-of-type(3) { animation-delay: 10s; }
+.image-wrapper img:nth-of-type(4) { animation-delay: 15s; }
+
+/* ✅ Fade animation */
+@keyframes fadeSlide {
+  0%   { opacity: 0; }
+  5%   { opacity: 1; }
+  25%  { opacity: 1; }
+  30%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
 
   .container {
     padding: 15px;
