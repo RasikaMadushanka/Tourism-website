@@ -48,6 +48,47 @@
   .image-wrapper img:nth-of-type(4) {
     animation-delay: 15s;
   }
+  .image-wrapper img:nth-of-type(5) {
+    animation-delay: 20s;
+  }
+
+  .image-wrapper img:nth-of-type(6) {
+    animation-delay: 25s;
+  }
+
+  .image-wrapper img:nth-of-type(7) {
+    animation-delay: 30s;
+  }
+
+  .image-wrapper img:nth-of-type(8) {
+    animation-delay: 35s;
+  }
+  .image-wrapper img:nth-of-type(9) {
+    animation-delay: 40s;
+  }
+
+  .image-wrapper img:nth-of-type(10) {
+    animation-delay: 45s;
+  }
+
+  .image-wrapper img:nth-of-type(11) {
+    animation-delay: 50s;
+  }
+
+  .image-wrapper img:nth-of-type(12) {
+    animation-delay: 55s;
+  }
+  .image-wrapper img:nth-of-type(13) {
+    animation-delay: 60s;
+  }
+
+  .image-wrapper img:nth-of-type(14) {
+    animation-delay: 65s;
+  }
+
+  .image-wrapper img:nth-of-type(15) {
+    animation-delay: 70s;
+  }
 
   /* ✅ Fade animation */
   @keyframes fadeSlide {
@@ -141,9 +182,9 @@
     position: absolute;
     bottom: 0;
     /* 👈 stick train to bottom of image */
-    left: -800px;
+    right: -800px;
     /* start off-screen */
-    animation: drive 12s linear infinite;
+    animation: drive 30s linear infinite;
     pointer-events: none;
     z-index: 1;
     /* below text, above images */
@@ -151,10 +192,11 @@
 
   @keyframes drive {
     0% {
-      left: -800px;
+      right: -800px;
     }
 
     100% {
-      left: 100vw;
+      right: 100vw;
     }
   }
+  
