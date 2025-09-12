@@ -23,9 +23,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    /* all images fill wrapper */
     object-fit: cover;
-    /* crop nicely */
     opacity: 0;
     animation: fadeSlide 20s infinite;
     z-index: 0;
