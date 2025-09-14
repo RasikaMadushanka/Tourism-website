@@ -197,5 +197,22 @@
       right: 100vw;
     }
   }
-
+  .card{
+    transition: transform 0.3s ease-in,box-shadow 0.3s ease-in;
+  }
+.card:hover{
+   transform: translateY(-10px) scale(1.03); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.btn{
+  transition: transform 0.3s ease-in-out,box-shadow 0.3s ease-in-out;
+}
+.btn:hover{
+   transform: translateY(-10px) scale(1.03); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.nav-link:hover{
+  background-color: aliceblue;
+  border-radius: 7px;
+}
   
