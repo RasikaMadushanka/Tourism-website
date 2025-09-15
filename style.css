@@ -215,4 +215,6 @@
   background-color: aliceblue;
   border-radius: 7px;
 }
-  
+ #more{
+  display: none;
+ } 

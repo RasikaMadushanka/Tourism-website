@@ -1,26 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Search Results</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <!-- navbar (optional, copy from index.html if you want) -->
+    <nav class="navbar navbar-expand-lg navabr-color fixed-top px-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Rasika Madushanka</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item add-gap">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item add-gap ">
+                        <a class="nav-link " href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown add-gap">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Destination
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Camping places</a></li>
+                            <li><a class="dropdown-item" href="#">Water falls</a></li>
+                            <li><a class="dropdown-item" href="#">Wild Safari</a></li>
+                            <li><a class="dropdown-item" href="#">Mountains</a></li>
+                            <li><a class="dropdown-item" href="#">Rivers</a></li>
+                            <li><a class="dropdown-item" href="#">Safari</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Secret Places</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown add-gap">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Tours
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Day Tours</a></li>
+                            <li><a class="dropdown-item" href="#">Tours Package</a></li>
+                            <li><a class="dropdown-item" href="#">Customize Packages</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Secret Places</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item add-gap">
+                        <a class="nav-link" href="">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search" onsubmit="return goToResults(event)">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                        id="search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
 
-  <main class="container mt-5 pt-5">
-    <h2>Search Results</h2>
-    <div id="result" class="row gy-4"></div>
-  </main>
+            </div>
+        </div>
+    </nav>
+    <br>
+       <!-- add image -->
 
-  <!-- footer (optional, copy from index.html if you want) -->
+    <div class="container-flucid py-5 position-relative">
+        <div class="image-wrapper">
+            <img src="asset/images/bac1.jpg" class="img-fluid w-100">
+            <img src="asset/images/bac2.jpg" class="img-fluid w-100">
+            <img src="asset/images/bac3.jpg" class="img-fluid w-100">
+            <img src="asset/images/bac4.jpg" class="img-fluid w-100">
+            <img src="asset/images/bac5.jpg" class="img-fluid w-100">
+            <img src="asset/images/bac6.jpg" class="img-fluid w-100">
+            <img src="asset/images/bac7.jpg" class="img-fluid w-100">
+            <img src="asset/images/bac8.jpg" class="img-fluid w-100">
+            <img src="asset/images/bac9.jpg" class="img-fluid w-100">
+            <img src="asset/images/bac10.jpg" class="img-fluid w-100">
+            <img src="asset/images/bac11.jpg" class="img-fluid w-100">
+            <img src="asset/images/bac12.jpg" class="img-fluid w-100">
+            <img src="asset/images/bac13.jpg" class="img-fluid w-100">
+            <img src="asset/images/bac14.jpg" class="img-fluid w-100">
+            <img src="asset/images/bac15.jpg" class="img-fluid w-100">
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="app.js"></script>
+
+
+
+            <!-- add text-->
+            <div class="position-absolute top-50 start-50 translate-middle text-center text-white responsive-text">
+                <h1>Welcome to the Sri Lanka </h1>
+                <p>Experience the beauty of nature</p>
+                <ul class="special">
+                    <li><a href="">Show more</a></li>
+                    <li><a href="">Show more</a></li>
+                    <li><a href="">Show more</a></li>
+                </ul>
+
+                <model-viewer class="mymodel" src="asset/model/smoke_test.glb" autoplay disable-zoom disable-pan ar
+                    animation-name="Run"></model-viewer>>
+
+                <div class="smoke"></div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- -------set searchbar code -->
+
+    <main class="container mt-5 pt-5">
+        <h2>Search Results</h2>
+        <div id="result" class="row gy-4"></div>
+    </main>
+
+    <!-- ----------footer----------------- -->
+    <footer class="bg-dark text-light pt-5 pb-3 mt-5" data-aos="fade-right" data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-4">
+                    <h5 class="fw-bold">🌴 Tourism Lanka</h5>
+                    <p class="small">
+                        Explore Sri Lanka’s hidden gems, breathtaking landscapes, and cultural heritage.
+                        We bring you curated travel experiences and unforgettable adventures.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="fw-bold">Quick Links</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#" class="text-decoration-none text-light">Home</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Destinations</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Tours</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">About</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="fw-bold">Services</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#" class="text-decoration-none text-light">Day Tours</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Holiday Packages</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Custom Trips</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Wildlife Safari</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold">Stay Updated</h6>
+                    <form class="d-flex mb-3">
+                        <input type="email" class="form-control form-control-sm me-2" placeholder="Enter your email">
+                        <button class="btn btn-primary btn-sm">Subscribe</button>
+                    </form>
+
+                    <p class="small mb-1"><i class="fa fa-map-marker-alt me-2"></i> Colombo, Sri Lanka</p>
+                    <p class="small mb-1"><i class="fa fa-envelope me-2"></i> info@tourismlanka.com</p>
+                    <p class="small mb-3"><i class="fa fa-phone me-2"></i> +94 77 123 4567</p>
+                    <div>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2"><i
+                                class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i
+                                class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary mt-4">
+            <div class="text-center small">
+                &copy; 2025 Tourism Lanka. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
