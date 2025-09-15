@@ -66,10 +66,12 @@
                         <a class="nav-link" href="">Contact Us</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search" onsubmit="return SearchPlace()">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search" />
-                    <button class="btn btn-outline-success" type="submit">Search </button>
+                <form class="d-flex" role="search" onsubmit="return goToResults(event)">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                        id="search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
+
             </div>
         </div>
     </nav>
@@ -401,9 +403,8 @@
         </div>
     </div>
     <!-- ----------footer----------------- -->
-    <footer class="bg-dark text-light pt-5 pb-3 mt-5" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+    <footer class="bg-dark text-light pt-5 pb-3 mt-5" data-aos="fade-right" data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
         <div class="container">
             <div class="row gy-4">
                 <div class="col-md-4">
