@@ -1,14 +1,18 @@
 AOS.init();
 
-// -make Array--------------
+
 const destinations = [
   {
     name: "Sigiriya",
-    image: "asset/images/sigiriya.jpg",
+    images: [
+      "asset/images/sigiriya.jpg",
+      "asset/images/sigiriya.jpg",
+      "asset/images/sigiriya.jpg"
+    ],
     description: "Sigiriya, often called the Lion Rock, is one of Sri Lanka’s most famous landmarks.",
     province: "Central Province",
     district: "Matale District",
-    Location: " Near the town of Dambulla, about 175 km northeast of Colombo",
+    Location: "Near the town of Dambulla, about 175 km northeast of Colombo",
     map: "https://www.google.com/maps/search/?api=1&query=Sigiriya,+Sri+Lanka"
   }
 ];
@@ -35,6 +39,7 @@ function displayResults() {
     resultContainer.innerHTML = `<p class="text-muted">No search query provided.</p>`;
     return;
   }
+  // ---search function work this-------
 
   const filtered = destinations.filter(Check =>
     Check.name.toLowerCase().includes(Search) ||
@@ -47,41 +52,73 @@ function displayResults() {
     return;
   }
 
+  // ✅ Render cards with side images
   resultContainer.innerHTML = filtered.map(Check => `
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="card h-100 shadow-lg">
-        <img src="${Check.image}" class="card-img-top" alt="${Check.name}">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">${Check.name}</h5>
-          <p class="card-text">${Check.description}</p>
-           <p class="card-text">${Check.province}</p>
-        <p class="card-text">${Check.district}</p>
-                <p class="card-text">${Check.Location}</p>
-          <p class="card-text">
-  <a href="${Check.map}" target="_blank">View Map</a>
-</p>
-          <a href="#" class="btn btn-primary">Discover</a>
+    <div class="col-12">
+      <div class="row g-3 align-items-start">
+        
+        <!-- Left side: Card -->
+        <div class="col-md-8">
+          <div class="card h-100 shadow-lg">
+            <!-- First image inside card -->
+            <img src="${Check.images[0]}" class="card-img-top" alt="${Check.name}">
+            
+            <div class="card-body">
+              <h5 class="card-title fw-bold">${Check.name}</h5>
+              <p class="card-text">${Check.description}</p>
+              <p class="card-text"><strong>Province:</strong> ${Check.province}</p>
+              <p class="card-text"><strong>District:</strong> ${Check.district}</p>
+              <p class="card-text"><strong>Location:</strong> ${Check.Location}</p>
+              <p class="card-text"><a href="${Check.map}" target="_blank">View Map</a></p>
+              <a href="#" class="btn btn-primary">Discover</a>
+            </div>
+          </div>
         </div>
+
+        <!-- Right side: Other images -->
+        <div class="col-md-4 d-flex flex-column gap-2">
+          ${Check.images.slice(1).map(img => `
+            <img src="${img}" alt="${Check.name}" 
+              style="width: 100%; height: 430px; object-fit: cover; border-radius: 6px;">
+          `).join("")}
+        </div>
+
       </div>
     </div>
   `).join("");
 }
 
-// disply search.html file
-displayResults();
+// Run on page load
+window.addEventListener("DOMContentLoaded", displayResults);
 
-function readmore(){
-  var dots=document.getElementById("dots");
-  var moreText=document.getElementById("more");
-  var btn =document.getElementById("buttonD");
-  if(dots.style.display==="none"){
-    dots.style.display==="inline";
-    buttonD.innerHTML="Read more";
-    moreText.style.display='none';
+
+document.addEventListener("DOMContentLoaded",function(){
+  document.querySelectorAll(".card-body").forEach(card=>{
+    let more=card.querySelector(".more");
+    let btn=card.querySelector("button");
+    if(!more && btn){
+
+      btn.style.display="none";
+    }
+
+  });
+});
+
+function readmore(btn){
+ let cardBody = btn.closest(".card-body");
+ let dots = cardBody.querySelector(".dots");
+ let more = cardBody.querySelector(".more");
+if (!more) return;
+//clicked the card
+  if(dots.style.display === "none"){
+    
+    dots.style.display = "inline";
+    more.style.display = "none";
+    btn.innerText = "Discover";
   }else{
-    dots.style.display='none';
-    buttonD.innerHTML="Read less";
-    moreText.style.display='inline';
+    dots.style.display = "none";
+    more.style.display = "inline";
+    btn.innerText = "Read less";
 
   }
 }

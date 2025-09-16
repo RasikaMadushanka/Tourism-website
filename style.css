@@ -5,6 +5,11 @@
   .navabr-color {
     background-color: #6c757d;
   }
+  .card {
+  display: flex;
+  flex-direction: column;
+  height: auto !important; /* overrides h-100 */
+}
 
 
 
@@ -218,3 +223,4 @@
  #more{
   display: none;
  } 
+ 
