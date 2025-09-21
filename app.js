@@ -164,18 +164,60 @@ const destinations = [
     map: "https://maps.app.goo.gl/cYqMR5583yUUweUs7"
   },
   {
-    name: "",
+    name: "Alupola Waterfall",
+    images: [
+      "asset/images/alupola.jpg",
+      "asset/images/alupola1.jpg",
+      "asset/images/alupola2.jpg "
+
+    ],
+    description:"Alupola Falls, also known as Alupola Ella, is a beautiful waterfall hidden within the lush greenery of the Ratnapura District in the Sabaragamuwa Province of Sri Lanka, located near the Balangoda area, about 25 kilometers away from Ratnapura town. Surrounded by the enchanting Sinharaja Forest Reserve’s outskirts and tea estates, this cascade flows gracefully down rocky slopes, creating a refreshing and serene natural attraction. The waterfall is formed by a tributary of the Walawe River, and its crystal-clear waters add both scenic beauty and ecological importance to the region. Alupola Falls is approximately 40 meters in height, and the area around it is rich in biodiversity, featuring endemic flora and fauna that thrive in the cool and moist environment. The location is not only a nature lover’s paradise but also offers a peaceful atmosphere, making it an ideal spot for eco-tourism, meditation, and relaxation away from the bustle of urban life. Visitors can also explore the nearby Alupola Tea Estate, which enhances the charm of the area with its neatly lined tea bushes and panoramic views. Since this attraction is less commercialized compared to other waterfalls in Sri Lanka, it maintains its natural, untouched beauty, making it perfect for those seeking a quiet retreat. Alupola Falls can be accessed through the Balangoda–Colombo main road, followed by a short drive and walk through scenic village paths.",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: "Alupola Falls is located in Ratnapura District, Sabaragamuwa Province, Sri Lanka, near Balangoda, about 25 km from Ratnapura town and close to the Sinharaja Forest Reserve and Alupola Tea Estate.",
+    map: "https://maps.app.goo.gl/7oPYHZ5KBVTSNet86"
+  },
+  {
+    name: "Lankaella Waterfall( Bambarakanda Waterfall)",
+    images: [
+      "asset/images/lanka.jpg",
+      "asset/images/lanka1.jpg",
+      "asset/images/lanka2.jpg "
+
+    ],
+    description:"Lanka Ella, also known as Lanka Falls, is a stunning yet lesser-known waterfall located in the Ratnapura District of the Sabaragamuwa Province, Sri Lanka, close to the world-famous Bambarakanda Falls, which is the tallest waterfall in the country. Hidden deep within the forest near Kalupahana, Lanka Ella is approximately 126 meters in height and is formed by the Belihul Oya stream, making it one of the most picturesque waterfalls in the region. Unlike some waterfalls where visitors can bathe directly under the cascade, Lanka Ella has a natural pool at its base with deep blue waters, ideal for safe swimming and relaxation while surrounded by untouched forest greenery. The surrounding area is rich in biodiversity, with lush montane forest, tea plantations, and endemic species, offering a truly serene experience for nature enthusiasts and hikers. The name Lanka Ella is said to be inspired by its uniquely shaped plunge pool, which resembles the outline of Sri Lanka when viewed from above. The trek to Lanka Ella involves a short but adventurous hike through jungle paths and streams, giving visitors both excitement and the reward of breathtaking views. Since it is situated away from major tourist crowds, the site remains relatively unspoiled, making it perfect for eco-tourism and those seeking tranquility in nature. To reach Lanka Ella, travelers usually take the A4 highway (Colombo–Badulla road) up to Kalupahana and then follow a small trail leading into the forest from the base of Bambarakanda Falls.",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: "Kalupahana, close to Bambarakanda Falls, along the Colombo–Badulla (A4) main road ",
+    map: "https://maps.app.goo.gl/KVJmFwAtvnoEfYUV7"
+  },
+  {
+    name: "Dehana Waterfall",
+    images: [
+      "asset/images/dehana.jpg",
+      "asset/images/dehana1.jpg",
+      "asset/images/dehana2.jpg "
+
+    ],
+    description:"Dehena Falls, also called Dehena Ella, is a scenic and lesser-known waterfall situated in the Ratnapura District of the Sabaragamuwa Province, Sri Lanka, flowing gracefully amidst lush forests, tea plantations, and rural village landscapes. This enchanting waterfall is approximately 73 meters in height, and it cascades in a narrow stream down rocky cliffs, creating a picturesque view with misty spray and crystal-clear waters at its base. The waterfall is formed by a tributary of the Kalu Ganga River, which is one of the major rivers in Sri Lanka, and the surrounding environment is home to rich biodiversity, including various species of birds, butterflies, and endemic flora. Dehena Ella is not heavily commercialized, which allows it to retain its natural charm and tranquil atmosphere, making it an ideal destination for eco-tourists, hikers, and travelers seeking peace away from crowded attractions. The name Dehena is derived from the nearby rural village that gives the waterfall its identity, and the area has cultural value as well, with local villagers often visiting it as part of their daily connection with nature. To reach Dehena Falls, visitors can travel along the Ratnapura–Wewelwatte road and then take a short trail through tea estates and forest paths that lead to the waterfall’s base, offering scenic views along the way. Since the pool below the falls can be deep and slippery, bathing should be done cautiously. Its unspoiled beauty and serene environment make it perfect for nature photography, meditation, and a refreshing stop for those exploring the waterfalls of the Ratnapura region.",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " Near Wewelwatte, along the Ratnapura–Wewelwatte road",
+    map: "https://maps.app.goo.gl/fcoeV219YtLJTBWh8"
+  },
+  {
+    name: "Kalthota doowili waterfall",
     images: [
       "asset/images/kirindi.jpeg",
       "asset/images/kirindi1.jpeg",
       "asset/images/kirindi2.jpeg "
 
     ],
-    description:"",
+    description:"Kalthota Doowili Ella, also known as Doowili Falls of Kalthota, is a breathtaking and less-crowded waterfall located in the Balangoda area of the Ratnapura District, within the Sabaragamuwa Province of Sri Lanka, and is considered one of the hidden natural gems of the island. The waterfall gets its name “Doowili” (meaning “dust” in Sinhala) because the cascading water creates a fine mist that resembles clouds of dust as it crashes down the rocks, adding a magical aura to the surroundings. Kalthota Doowili Ella is approximately 40 meters in height, and it is formed by a tributary of the Walawe River, which flows through the region providing water for agriculture and biodiversity. The waterfall is nestled in a rural setting, surrounded by paddy fields, tea estates, rocky cliffs, and patches of forest, making it a refreshing destination for both nature lovers and eco-tourists. The pool at the base of the falls is crystal clear and scenic, but since it can be deep and the rocks slippery, bathing should be done with caution. The journey to the falls is adventurous, requiring travel along the Balangoda–Kalthota road followed by a trek through village paths, forest trails, and rocky terrain, making it a rewarding experience for hikers and explorers. Its serene environment, away from urban noise and commercialization, makes Kalthota Doowili Ella an ideal spot for photography, meditation, and enjoying pure natural beauty. The region is also culturally rich, as Kalthota itself is a historic village with traditional lifestyles that give visitors a glimpse of authentic Sri Lankan rural life.",
     province: "Sabaragamuwa Province",
     district: "Rathnapura district",
-    Location: "Surathali Ella is located in the Walhaputenna area near Belihuloya town, in the Ratnapura District, Sabaragamuwa Province, Sri Lanka. It lies along the Colombo–Badulla main road (A4), making it easily accessible for travelers.",
-    map: "https://maps.app.goo.gl/oTVUoyLUPi8ycKNB9"
+    Location: " ",
+    map: ""
   },
   {
     name: "",
@@ -188,8 +230,232 @@ const destinations = [
     description:"",
     province: "Sabaragamuwa Province",
     district: "Rathnapura district",
-    Location: "Surathali Ella is located in the Walhaputenna area near Belihuloya town, in the Ratnapura District, Sabaragamuwa Province, Sri Lanka. It lies along the Colombo–Badulla main road (A4), making it easily accessible for travelers.",
-    map: "https://maps.app.goo.gl/oTVUoyLUPi8ycKNB9"
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
+  },
+  {
+    name: "",
+    images: [
+      "asset/images/kirindi.jpeg",
+      "asset/images/kirindi1.jpeg",
+      "asset/images/kirindi2.jpeg "
+
+    ],
+    description:"",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " ",
+    map: ""
   }
 
 ];
