@@ -208,19 +208,47 @@ const destinations = [
   {
     name: "Kalthota doowili waterfall",
     images: [
-      "asset/images/kirindi.jpeg",
-      "asset/images/kirindi1.jpeg",
-      "asset/images/kirindi2.jpeg "
+      "asset/images/kalthota.jpg",
+      "asset/images/kalthota1.jpg",
+      "asset/images/kalthota2.jpg "
 
     ],
     description:"Kalthota Doowili Ella, also known as Doowili Falls of Kalthota, is a breathtaking and less-crowded waterfall located in the Balangoda area of the Ratnapura District, within the Sabaragamuwa Province of Sri Lanka, and is considered one of the hidden natural gems of the island. The waterfall gets its name “Doowili” (meaning “dust” in Sinhala) because the cascading water creates a fine mist that resembles clouds of dust as it crashes down the rocks, adding a magical aura to the surroundings. Kalthota Doowili Ella is approximately 40 meters in height, and it is formed by a tributary of the Walawe River, which flows through the region providing water for agriculture and biodiversity. The waterfall is nestled in a rural setting, surrounded by paddy fields, tea estates, rocky cliffs, and patches of forest, making it a refreshing destination for both nature lovers and eco-tourists. The pool at the base of the falls is crystal clear and scenic, but since it can be deep and the rocks slippery, bathing should be done with caution. The journey to the falls is adventurous, requiring travel along the Balangoda–Kalthota road followed by a trek through village paths, forest trails, and rocky terrain, making it a rewarding experience for hikers and explorers. Its serene environment, away from urban noise and commercialization, makes Kalthota Doowili Ella an ideal spot for photography, meditation, and enjoying pure natural beauty. The region is also culturally rich, as Kalthota itself is a historic village with traditional lifestyles that give visitors a glimpse of authentic Sri Lankan rural life.",
     province: "Sabaragamuwa Province",
     district: "Rathnapura district",
-    Location: " ",
-    map: ""
+    Location: " althota Doowili Ella is a stunning waterfall situated in the village of Kalthota, about 27 km from Balangoda in the Ratnapura District of Sabaragamuwa Province, Sri Lanka.",
+    map: "https://maps.app.goo.gl/6JSL9R62GEuVRXCD8"
   },
   {
-    name: "",
+    name: "Sampath Waterfall",
+    images: [
+      "asset/images/sampath.jpg",
+      "asset/images/samapth1.jpg",
+      "asset/images/sampath2.jpg "
+
+    ],
+    description:"Sampath Ella is a charming waterfall hidden within the lush greenery of the Ratnapura District in the Sabaragamuwa Province, Sri Lanka, a region renowned for its gems, rivers, and scenic landscapes. The waterfall is created by a branch of the Kuru Ganga, a tributary of the famous Kalu Ganga, and gracefully cascades down through a rocky setting into a natural pool below. Its name, “Sampath Ella,” is believed to be derived from the peaceful and prosperous surroundings of the area, reflecting the natural beauty and abundance of the region. The waterfall is not very tall but is admired for its serene flow, crystal-clear water, and the tranquility it offers, making it a refreshing escape for nature lovers and travelers seeking less-crowded attractions. Surrounded by thick forests, tea estates, and village landscapes, Sampath Ella is accessible through narrow rural roads, offering visitors both adventure and relaxation. The site is especially popular among locals for bathing and picnicking, while its calm environment also attracts photographers and eco-travelers. Located just a few kilometers away from the gem-rich city of Ratnapura, Sampath Ella is an ideal stop for those exploring the natural and cultural wonders of the Sabaragamuwa Province.",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " Sampath Ella is located in the Ratnapura District of the Sabaragamuwa Province, Sri Lanka, a few kilometers away from the city of Ratnapura, along the banks of the Kuru Ganga, which is a tributary of the Kalu Ganga",
+    map: "https://maps.app.goo.gl/sLw4z594JdN7DAer9"
+  },
+  {
+    name: "Pandi Waterfall",
+    images: [
+      "asset/images/pandi.jpg",
+      "asset/images/pandi1.jpg",
+      "asset/images/pandi2.jpg "
+
+    ],
+    description:"Pandi Ella is a picturesque and lesser-known waterfall nestled in the Ratnapura District of the Sabaragamuwa Province, Sri Lanka, a region celebrated for its natural beauty and abundant waterways. The waterfall is formed by a stream that flows through the forested highlands before joining the larger river systems of the area, creating a charming cascade that attracts both locals and travelers seeking tranquility. Pandi Ella is not among the tallest waterfalls, but its gentle, multi-tiered flow combined with the surrounding greenery makes it a captivating sight, especially during the rainy season when the water volume is at its peak. The pool at the base of the falls provides a refreshing spot for bathing and relaxation, making it a popular picnic destination for nearby villagers. The area around Pandi Ella is surrounded by tea plantations, paddy fields, and rural settlements, offering visitors an authentic glimpse into Sri Lanka’s countryside life along with the natural wonder of the falls. Though access requires traveling through narrow rural roads and sometimes a short trek, the journey is well rewarded with the peaceful atmosphere and unspoiled environment. Situated close to Ratnapura town, famous for its gems and cultural heritage, Pandi Ella serves as both a natural retreat and a complement to the district’s diverse attractions, making it a delightful stop for eco-tourism and nature enthusiasts.",
+    province: "Sabaragamuwa Province",
+    district: "Rathnapura district",
+    Location: " Pandi Ella is located in the Ratnapura District of the Sabaragamuwa Province, Sri Lanka, a short distance from Ratnapura town, surrounded by rural villages, tea estates, and forested landscapes.",
+    map: "https://maps.app.goo.gl/VUykf12XnYwGPSm26"
+  },
+  {
+    name: "KatuKithul Waterfall",
     images: [
       "asset/images/kirindi.jpeg",
       "asset/images/kirindi1.jpeg",
@@ -234,7 +262,7 @@ const destinations = [
     map: ""
   },
   {
-    name: "",
+    name: "Hal ella waterfall",
     images: [
       "asset/images/kirindi.jpeg",
       "asset/images/kirindi1.jpeg",
@@ -248,7 +276,7 @@ const destinations = [
     map: ""
   },
   {
-    name: "",
+    name: "Rajawaka Waterfall",
     images: [
       "asset/images/kirindi.jpeg",
       "asset/images/kirindi1.jpeg",
@@ -262,7 +290,7 @@ const destinations = [
     map: ""
   },
   {
-    name: "",
+    name: "Kaluganaga river",
     images: [
       "asset/images/kirindi.jpeg",
       "asset/images/kirindi1.jpeg",
@@ -276,7 +304,7 @@ const destinations = [
     map: ""
   },
   {
-    name: "",
+    name: "Kelani river",
     images: [
       "asset/images/kirindi.jpeg",
       "asset/images/kirindi1.jpeg",
@@ -290,7 +318,7 @@ const destinations = [
     map: ""
   },
   {
-    name: "",
+    name: "Mahaoya river",
     images: [
       "asset/images/kirindi.jpeg",
       "asset/images/kirindi1.jpeg",
@@ -304,7 +332,7 @@ const destinations = [
     map: ""
   },
   {
-    name: "",
+    name: "Udawalawa lake",
     images: [
       "asset/images/kirindi.jpeg",
       "asset/images/kirindi1.jpeg",
@@ -318,7 +346,7 @@ const destinations = [
     map: ""
   },
   {
-    name: "",
+    name: "Chandrika lake",
     images: [
       "asset/images/kirindi.jpeg",
       "asset/images/kirindi1.jpeg",
@@ -332,7 +360,7 @@ const destinations = [
     map: ""
   },
   {
-    name: "",
+    name: "samanakawewa lake",
     images: [
       "asset/images/kirindi.jpeg",
       "asset/images/kirindi1.jpeg",
@@ -346,35 +374,7 @@ const destinations = [
     map: ""
   },
   {
-    name: "",
-    images: [
-      "asset/images/kirindi.jpeg",
-      "asset/images/kirindi1.jpeg",
-      "asset/images/kirindi2.jpeg "
-
-    ],
-    description:"",
-    province: "Sabaragamuwa Province",
-    district: "Rathnapura district",
-    Location: " ",
-    map: ""
-  },
-  {
-    name: "",
-    images: [
-      "asset/images/kirindi.jpeg",
-      "asset/images/kirindi1.jpeg",
-      "asset/images/kirindi2.jpeg "
-
-    ],
-    description:"",
-    province: "Sabaragamuwa Province",
-    district: "Rathnapura district",
-    Location: " ",
-    map: ""
-  },
-  {
-    name: "",
+    name: "kalatuwewa lake",
     images: [
       "asset/images/kirindi.jpeg",
       "asset/images/kirindi1.jpeg",
