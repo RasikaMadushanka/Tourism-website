@@ -269,11 +269,11 @@ const destinations = [
       "asset/images/kirindi2.jpeg "
 
     ],
-    description:"",
+    description:"Hal Ella is a charming yet lesser-known waterfall hidden within the lush central highlands of Sri Lanka, located in the Ratnapura District near Kuruwita, within the Sabaragamuwa Province, an area famous for its gems and abundant natural beauty. The waterfall, which is about 15–20 meters in height, flows gracefully in a single drop surrounded by thick forest cover, tea plantations, and small village landscapes that give it a secluded and tranquil atmosphere. Unlike the more prominent waterfalls such as Bopath Ella or Diyaluma, Hal Ella offers a peaceful retreat for those who seek off-the-beaten-path experiences, with the sound of cascading water blending into the chirping of birds and rustling of trees. Its stream is part of the Kuru Ganga, which later joins the Kalu Ganga, one of Sri Lanka’s major rivers. The pool at the base of the waterfall is clear and relatively safe for bathing during the dry months, making it a popular picnic and relaxation spot for locals, though visitors are advised to be careful during rainy seasons when currents grow stronger. The approach to Hal Ella usually requires a short trek through village paths and greenery, adding an element of adventure for travelers. The best time to visit is during the monsoon or immediately after, when the water flow is full and the surroundings are fresh and vibrant. With its serene environment, easy accessibility compared to some remote waterfalls, and scenic backdrop of the Sabaragamuwa hills, Hal Ella stands as a beautiful natural attraction that reflects the unspoiled charm of rural Sri Lanka.",
     province: "Sabaragamuwa Province",
     district: "Rathnapura district",
-    Location: " ",
-    map: ""
+    Location: " Hal Ella is a small but beautiful waterfall located in the Ratnapura District of Sri Lanka’s Sabaragamuwa Province, near the town of Kuruwita. Fed by the Kuru Ganga, which later joins the Kalu Ganga, the fall drops about 15–20 meters amidst forested surroundings and tea estates, creating a peaceful natural retreat. It is relatively easy to reach with a short walk from nearby village paths, and its clear base pool is sometimes used for bathing, though caution is needed during heavy rains.",
+    map: "Not available"
   },
   {
     name: "Rajawaka Waterfall",
